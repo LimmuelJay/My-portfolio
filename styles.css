@@ -74,10 +74,46 @@ a {
     text-align: center;
 }
 
+.educational-background{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.educational-background-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.school-background {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.senior-high-background {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.college-background {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#mseuf-logo {
+    width: 200px;
+}
+
 .what-i-learned {
     display: flex;
     flex-direction: column;
-    min-height: 1200px;
+    min-height: 1000px;
     width: 100%;
     justify-content: space-around;
     align-items: center;
